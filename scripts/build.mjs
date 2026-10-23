@@ -44,6 +44,7 @@ files.set('/404.html', page('Page not found','This page could not be found. Expl
 await rm(out,{recursive:true,force:true});
 await mkdir(out,{recursive:true});
 await cp(path.join(root,'assets'),path.join(out,'assets'),{recursive:true});
+await cp(path.join(root,'googlee21064feecf10b96.html'),path.join(out,'googlee21064feecf10b96.html'));
 for (const [route, html] of files) {
   const file = path.join(out,route.endsWith('.html') ? route.slice(1) : route.slice(1)+'index.html');
   await mkdir(path.dirname(file),{recursive:true}); await writeFile(file,html);

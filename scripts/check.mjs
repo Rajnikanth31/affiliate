@@ -8,6 +8,10 @@ const config = JSON.parse(await readFile(path.join(root,'site.config.json'),'utf
 async function walk(dir) { const entries = await readdir(dir,{withFileTypes:true}); return (await Promise.all(entries.map(e=>e.isDirectory()?walk(path.join(dir,e.name)):path.join(dir,e.name)))).flat(); }
 const pages = (await walk(dist)).filter(f=>f.endsWith('.html'));
 for (const file of pages) {
+  if (path.basename(file) === 'googlee21064feecf10b96.html') {
+    assert.equal(await readFile(file,'utf8'), await readFile(path.join(root,'googlee21064feecf10b96.html'),'utf8'), 'Verification file must be unchanged');
+    continue;
+  }
   const html = await readFile(file,'utf8');
   assert.match(html,/<meta name="description" content="[^"]+">/);
   assert.equal((html.match(/<h1[ >]/g)||[]).length,1,`One h1: ${file}`);
