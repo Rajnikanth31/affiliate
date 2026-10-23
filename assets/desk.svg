@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 680" role="img" aria-labelledby="title desc">
+<title id="title">A quiet workspace</title><desc id="desc">Original illustration of a desk with a lamp, laptop, notebook and plant. No products are depicted.</desc>
+<defs><linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e9e6d9"/><stop offset="1" stop-color="#d9decb"/></linearGradient><linearGradient id="wood" x2="0" y2="1"><stop stop-color="#c69867"/><stop offset="1" stop-color="#ad7a50"/></linearGradient></defs>
+<path fill="url(#wall)" d="M0 0h900v680H0z"/><path fill="#f6f2e5" d="M580 0h260v350H580z"/><path stroke="#dfdccd" stroke-width="12" d="M710 0v350M580 170h260"/><path fill="#8b9471" opacity=".15" d="m580 350 260 0 60 190H260z"/>
+<ellipse cx="420" cy="590" rx="360" ry="35" fill="#576047" opacity=".13"/><path fill="url(#wood)" d="M60 440h790l35 62H28z"/><path fill="#8c6349" d="M28 502h857v20H28z"/><path stroke="#655d4a" stroke-width="20" d="m100 520-20 160m720-160 25 160"/>
+<path stroke="#344c42" stroke-width="16" stroke-linecap="round" d="M205 442V290l84-130"/><path fill="#344c42" d="m253 150 63-4 67 85-149 9z"/><path fill="#f7e5b4" d="m241 240 133-8-36 121-176 10z" opacity=".35"/><ellipse fill="#344c42" cx="205" cy="446" rx="67" ry="12"/>
+<path fill="#475a50" d="m335 286 230 0 14 167H350z"/><path fill="#b2c1ac" d="m348 298 204 0 13 143H362z"/><path fill="#e7e6d9" d="M350 453h229l72 31H299z"/><path fill="#9da79c" d="M299 484h352v8H299z"/><path fill="#8a978b" d="m377 460 172 0 31 16H348z"/><path fill="#d6dbc9" d="m395 318 119 0 4 7H395zm0 18h85v5h-85zm0 15h102v5H395z"/>
+<path fill="#f3ecd8" d="m650 457 99-5 33 30-104 5z"/><path stroke="#beac8a" stroke-width="3" d="m694 458 24 24"/><path fill="#b16b4a" d="M724 384h63l-10 62h-43z"/><path fill="#49694c" d="M753 387c-58-6-68-57-26-42 12 4 19 23 26 42zm6-3c-3-61 37-76 36-40-1 17-21 34-36 40zm-3-16c-39-36-35-79-9-60 18 14 12 42 9 60z"/>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "Considered",
+  "url": "",
+  "contactEmail": "agriflowe@gmail.com",
+  "affiliateEnabled": false,
+  "affiliateLinks": {
+    "desk-lamps": "",
+    "laptop-stands": "",
+    "desk-organisers": "",
+    "air-fryers": "",
+    "power-banks": "",
+    "wireless-earbuds": "",
+    "vacuum-cleaners": "",
+    "electric-trimmers": "",
+    "cabin-luggage": ""
+  },
+  "publisher": "Rajnikanth",
+  "marketplace": "amazon.in"
+}

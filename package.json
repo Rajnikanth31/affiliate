@@ -1,0 +1,12 @@
+{
+  "name": "considered-home-office",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A dependency-free editorial affiliate website",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
