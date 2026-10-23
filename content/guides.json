@@ -64,11 +64,18 @@
       "Check the locking mechanism and return terms"
     ],
     "tradeoff": "Portability usually asks you to accept more setup each day. A fixed stand can be the simpler choice if your laptop rarely leaves the desk.",
-    "product": {
-      "name": "Zebronics NS1000 laptop stand",
-      "note": "A foldable stand listed on Amazon.in, included as an example to compare with the checklist above. We have not tested its stability, durability or laptop fit, and inclusion is not a recommendation or a ranking. Check the exact dimensions, adjustment mechanism, return terms and manufacturer documentation before deciding.",
-      "checkedAt": "2026-10-24"
-    }
+    "products": [
+      {
+        "name": "Zebronics NS1000 laptop stand",
+        "note": "A foldable stand listed on Amazon.in, included as an example to compare with the checklist above. We have not tested its stability, durability or laptop fit, and inclusion is not a recommendation or a ranking. Check the exact dimensions, adjustment mechanism, return terms and manufacturer documentation before deciding.",
+        "checkedAt": "2026-10-24",
+        "linkKey": "laptop-stands",
+        "image": "/assets/zebronics-ns1000.jpg",
+        "alt": "Zebronics NS1000 laptop stand shown open and folded",
+        "width": 1500,
+        "height": 1500
+      }
+    ]
   },
   {
     "slug": "desk-organisers",
@@ -134,7 +141,31 @@
       "Confirm socket and plug suitability",
       "Check cleaning instructions and replacement parts"
     ],
-    "tradeoff": "A larger basket can reduce repeat batches, but needs more storage and counter space. Choose around actual portions rather than the biggest capacity label."
+    "tradeoff": "A larger basket can reduce repeat batches, but needs more storage and counter space. Choose around actual portions rather than the biggest capacity label.",
+    "products": [
+      {
+        "name": "Philips NA120/00 air fryer · 4.2 L",
+        "linkKey": "philips-na120",
+        "image": "/assets/philips-na120.jpg",
+        "alt": "Black Philips NA120/00 air fryer with dial controls",
+        "width": 1000,
+        "height": 1000,
+        "note": "The listing identifies the NA120/00 as a 4.2-litre air fryer. Its dial controls offer a different interface to the window-equipped Cookwell example below. We have not tested cooking results, basket coating or durability.",
+        "compare": "Measure usable basket space and ventilation clearance; confirm the cleaning instructions and service options for your location.",
+        "checkedAt": "2026-10-24"
+      },
+      {
+        "name": "Cookwell window air fryer · 5 L",
+        "linkKey": "cookwell-window-5l",
+        "image": "/assets/cookwell-window-5l.jpg",
+        "alt": "Grey and black Cookwell air fryer with digital controls and a viewing window",
+        "width": 1301,
+        "height": 1500,
+        "note": "The listing describes a 5-litre, 1400 W air fryer with a see-through window. The window and digital controls are features to compare, not evidence of better cooking. We have not measured performance or usable basket capacity.",
+        "compare": "Check actual basket dimensions, window cleaning, opening space, warranty and replacement-part availability.",
+        "checkedAt": "2026-10-24"
+      }
+    ]
   },
   {
     "slug": "power-banks",
@@ -200,7 +231,31 @@
       "Separate earbud runtime from case totals",
       "Check replacement tips and service options"
     ],
-    "tradeoff": "More features can mean more app setup and battery use. Choose the functions you will use regularly rather than collecting every specification."
+    "tradeoff": "More features can mean more app setup and battery use. Choose the functions you will use regularly rather than collecting every specification.",
+    "products": [
+      {
+        "name": "OnePlus Nord Buds 3 · Harmonic Gray",
+        "linkKey": "oneplus-nord-buds3",
+        "image": "/assets/oneplus-nord-buds3.jpg",
+        "alt": "OnePlus Nord Buds 3 in Harmonic Gray with charging case",
+        "width": 1500,
+        "height": 1440,
+        "note": "The linked listing is for Nord Buds 3 in Harmonic Gray and advertises active noise cancellation. We have not tested sound, calls, comfort or battery life. Compare the exact model rather than assuming every Nord Buds version has the same features.",
+        "compare": "Check phone and app compatibility, tip sizes, per-charge runtime conditions and hygiene-related return restrictions.",
+        "checkedAt": "2026-10-24"
+      },
+      {
+        "name": "JBL Vibe Beam 2 · Black",
+        "linkKey": "jbl-vibe-beam2",
+        "image": "/assets/jbl-vibe-beam2.jpg",
+        "alt": "Black JBL Vibe Beam 2 earbuds with open charging case",
+        "width": 1500,
+        "height": 1500,
+        "note": "This listing identifies the black JBL Vibe Beam 2 with active noise cancellation and Smart Ambient. These are advertised features, not our assessment of their effectiveness. We have not compared its audio or microphone performance against the OnePlus model.",
+        "compare": "Check device switching, app requirements, fit, battery test conditions and the seller’s return terms.",
+        "checkedAt": "2026-10-24"
+      }
+    ]
   },
   {
     "slug": "vacuum-cleaners",
@@ -266,7 +321,20 @@
       "Read cleaning and water-exposure instructions",
       "Check spare blades, combs and hygiene return terms"
     ],
-    "tradeoff": "A compact single-purpose trimmer can be simpler to maintain. A multi-attachment kit earns its extra parts only when they serve your routine."
+    "tradeoff": "A compact single-purpose trimmer can be simpler to maintain. A multi-attachment kit earns its extra parts only when they serve your routine.",
+    "products": [
+      {
+        "name": "Philips MG3927 all-in-one grooming kit",
+        "linkKey": "philips-mg3927",
+        "image": "/assets/philips-mg3927.jpg",
+        "alt": "Philips all-in-one trimmer with multiple combs and a nose-trimming attachment",
+        "width": 1500,
+        "height": 1500,
+        "note": "The destination listing identifies this kit as MG3927, rather than BT3231/15. It is an all-in-one grooming option with multiple attachments. We have not tested cutting, comfort or durability, and do not adopt the promotional safety or ranking claims shown in the supplied image.",
+        "compare": "Confirm the exact model suffix, included attachments, permitted body areas, cleaning instructions, spare parts and warranty conditions.",
+        "checkedAt": "2026-10-24"
+      }
+    ]
   },
   {
     "slug": "cabin-luggage",
@@ -300,5 +368,57 @@
       "Find replacement wheels and warranty exclusions"
     ],
     "tradeoff": "Hard and soft shells organise space differently. The more useful choice is the one that fits your transport, packing habits and repair options."
+  },
+  {
+    "slug": "air-purifiers",
+    "title": "An air purifier that fits the room and the upkeep",
+    "category": "Home & cleaning",
+    "time": "3 min read",
+    "summary": "Compare room suitability, filter costs, placement and everyday controls before choosing an air purifier.",
+    "intro": "Start with the room you intend to use, then compare the manufacturer’s documented performance and maintenance requirements. This guide explains shopping questions; no air purifier has been tested or ranked by Considered.",
+    "sections": [
+      {
+        "heading": "Size for the room you will actually use",
+        "text": "Measure the space and note whether doors usually connect it to adjoining rooms. The US EPA recommends matching a portable air cleaner’s clean air delivery rate (CADR) to the room. Compare the manufacturer’s room-size assumptions, ceiling height and operating setting rather than relying on a single maximum coverage number."
+      },
+      {
+        "heading": "Check the filter commitment",
+        "text": "Find the exact replacement-filter code, local availability and current cost before ordering. Read the manual for inspection, cleaning and replacement instructions. A washable outer pre-filter does not mean every filter can be washed. A model becomes less convenient if its consumables are difficult to obtain."
+      },
+      {
+        "heading": "Plan placement and everyday controls",
+        "text": "Leave the inlet and outlet clear according to the manual, with a suitable socket nearby. If you intend to use it in a bedroom, check noise information at the speed you need, display dimming and timer behaviour. For connected models, check Wi-Fi requirements, app permissions and whether core controls work without an account."
+      },
+      {
+        "heading": "Keep performance claims in context",
+        "text": "The EPA explains that filtration complements source control and ventilation; it does not remove every pollutant. Avoid devices designed to intentionally generate ozone. Do not treat a sensor reading, filter label or product advertisement as a promise of medical benefit. Check independent guidance and the exact model’s documentation."
+      }
+    ],
+    "checklist": [
+      "Measure the intended room and check documented CADR",
+      "Find the exact replacement-filter code and cost",
+      "Allow the required inlet and outlet clearance",
+      "Check noise, controls, app requirements and service support"
+    ],
+    "tradeoff": "A connected model can add scheduling and remote controls, while adding an app and account to maintain. Room suitability and available replacement filters matter more than a long feature list.",
+    "sources": [
+      {
+        "title": "US EPA: Guide to Air Cleaners in the Home",
+        "url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home"
+      }
+    ],
+    "products": [
+      {
+        "name": "Philips AC0950 smart Wi-Fi air purifier · White",
+        "linkKey": "philips-ac0950",
+        "image": "/assets/philips-ac0950.jpg",
+        "alt": "White Philips AC0950 air purifier shown with app screens",
+        "width": 1499,
+        "height": 1500,
+        "note": "The linked model is AC0950, not AC0920. Its listing advertises Wi-Fi and Air+ app controls. We have not measured filtration, room performance or noise, and this product example makes no health or disease-prevention claim.",
+        "compare": "Match documented CADR and room conditions, check replacement-filter cost and availability, and review app privacy and local service options.",
+        "checkedAt": "2026-10-24"
+      }
+    ]
   }
 ]

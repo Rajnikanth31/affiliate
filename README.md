@@ -127,3 +127,9 @@ After your first deployment, set `url` in `site.config.json` to the exact HTTPS 
 
 
 Affiliate update (24 October 2026): the laptop-stand guide includes a clearly labelled Zebronics NS1000 product example, not a tested recommendation. The link.amazon destination was checked to reach Amazon.in with tracking tag consideredind-21. Amazon short links are public, not credentials. Never add prices, copied reviews, ratings or product images without meeting the relevant requirements.
+
+## Multiple product examples
+
+Product cards are defined in each guide’s `products` array in `content/guides.json`. Each entry has `linkKey`, local image path, image dimensions/alt text, editorial note, comparison question and check date. Its link is configured under `affiliateLinks[linkKey]` in `site.config.json`; the global switch still controls all affiliate anchors. Guides can have multiple cards. Publisher-supplied images live in `assets/`. Cards remain above the guide sections.
+
+Current collection: ten guides and seven product examples (including the original laptop stand). New examples cover two air fryers, two earbuds, a Philips MG3927 kit and a Philips AC0950 purifier. Exact product links and tracking tags were checked on 24 October 2026. No prices, ratings, hands-on testing or health benefits are claimed. Air-purifier guidance cites the EPA.

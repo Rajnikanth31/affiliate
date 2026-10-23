@@ -25,13 +25,23 @@ for (const file of pages) {
 }
 const robots = await readFile(path.join(dist,'robots.txt'),'utf8');
 assert.ok(config.url ? robots.includes('Sitemap:') : robots.includes('Disallow: /'));
-if (config.affiliateEnabled) {
-  for (const [slug,link] of Object.entries(config.affiliateLinks)) {
-    if (!link) continue;
-    const html=await readFile(path.join(dist,'guides',slug,'index.html'),'utf8');
-    assert.ok(html.includes(link.replaceAll('&','&amp;')), 'Configured affiliate link must appear in its guide');
-    assert.match(html,/rel="sponsored nofollow noopener"/);
-    assert.match(html,/As an Amazon Associate I earn from qualifying purchases/);
+const guides = JSON.parse(await readFile(path.join(root,'content/guides.json'),'utf8'));
+let productCount=0;
+for (const guide of guides) {
+  const html=await readFile(path.join(dist,'guides',guide.slug,'index.html'),'utf8');
+  const products=guide.products || [];
+  assert.equal((html.match(/class="product-card"/g)||[]).length,products.length);
+  if (products.length) assert.ok(html.indexOf('class="product-card"') < html.indexOf('id="step-1"'), 'Products must appear above guide sections');
+  for (const product of products) {
+    productCount++;
+    assert.ok(html.includes(product.image),'Correct product image must appear');
+    const link=config.affiliateLinks[product.linkKey];
+    if (config.affiliateEnabled && link) {
+      assert.equal(html.split(link).length-1,2,'Photo and button must share the affiliate link');
+      assert.match(html,/rel="sponsored nofollow noopener"/);
+      assert.match(html,/As an Amazon Associate I earn from qualifying purchases/);
+    } else if(link) assert.ok(!html.includes(link),'Disabled affiliate links must not be emitted');
   }
 }
+assert.ok(productCount > 0,'Expected product fixtures');
 console.log(`Passed: ${pages.length} pages, local links/assets, headings, metadata and affiliate safety.`);
