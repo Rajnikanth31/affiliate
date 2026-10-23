@@ -2,10 +2,10 @@
   "name": "Considered",
   "url": "https://affiliate.agriflowe.workers.dev",
   "contactEmail": "agriflowe@gmail.com",
-  "affiliateEnabled": false,
+  "affiliateEnabled": true,
   "affiliateLinks": {
     "desk-lamps": "",
-    "laptop-stands": "",
+    "laptop-stands": "https://link.amazon/B0cDevVqX",
     "desk-organisers": "",
     "air-fryers": "",
     "power-banks": "",

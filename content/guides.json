@@ -63,7 +63,12 @@
       "Verify port and vent clearance",
       "Check the locking mechanism and return terms"
     ],
-    "tradeoff": "Portability usually asks you to accept more setup each day. A fixed stand can be the simpler choice if your laptop rarely leaves the desk."
+    "tradeoff": "Portability usually asks you to accept more setup each day. A fixed stand can be the simpler choice if your laptop rarely leaves the desk.",
+    "product": {
+      "name": "Zebronics NS1000 laptop stand",
+      "note": "A foldable stand listed on Amazon.in, included as an example to compare with the checklist above. We have not tested its stability, durability or laptop fit, and inclusion is not a recommendation or a ranking. Check the exact dimensions, adjustment mechanism, return terms and manufacturer documentation before deciding.",
+      "checkedAt": "2026-10-24"
+    }
   },
   {
     "slug": "desk-organisers",

@@ -110,7 +110,7 @@ Optional automation is described in `automation/README.md`. It is deliberately s
 
 ## Current editorial scope
 
-Nine general buying guides across Home office, Home & cleaning, Kitchen, Tech essentials, Personal care and Travel. Topic selection is informed by dated, linked Amazon India category reports, not a live bestseller feed. Products are not ranked or claimed as tested. Affiliate links remain disabled; approval status has not been confirmed. The public contact uses Gmail. Review the privacy policy against actual inbox management before launch.
+Nine general buying guides across Home office, Home & cleaning, Kitchen, Tech essentials, Personal care and Travel. Topic selection is informed by dated, linked Amazon India category reports, not a live bestseller feed. Products are not ranked or claimed as tested. One Amazon.in affiliate link is enabled for the laptop-stand guide using the user-provided SiteStripe link. Other guide links are empty and remain inactive. Final application review is pending. The public contact uses Gmail. Review the privacy policy against actual inbox management before launch.
 
 ## Hosting directly from this GitHub repository
 
@@ -123,5 +123,7 @@ Uploading source to GitHub does not itself publish the website. For automatic Cl
 * Root directory: repository root (leave blank)
 * Node version: a supported LTS release, version 22 or newer
 
-After your first deployment, set `url` in `site.config.json` to the exact HTTPS production address and commit that change. Cloudflare will rebuild canonical URLs, sitemap and robots. Until then the website is intentionally noindex. Affiliates remain disabled until approved. Direct Upload projects cannot be converted to Git integration; use a new Pages project if you already made one.
+After your first deployment, set `url` in `site.config.json` to the exact HTTPS production address and commit that change. Cloudflare will rebuild canonical URLs, sitemap and robots. Until then the website is intentionally noindex. Affiliate status is controlled in site.config.json. Direct Upload projects cannot be converted to Git integration; use a new Pages project if you already made one.
 
+
+Affiliate update (24 October 2026): the laptop-stand guide includes a clearly labelled Zebronics NS1000 product example, not a tested recommendation. The link.amazon destination was checked to reach Amazon.in with tracking tag consideredind-21. Amazon short links are public, not credentials. Never add prices, copied reviews, ratings or product images without meeting the relevant requirements.

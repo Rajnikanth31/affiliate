@@ -25,4 +25,13 @@ for (const file of pages) {
 }
 const robots = await readFile(path.join(dist,'robots.txt'),'utf8');
 assert.ok(config.url ? robots.includes('Sitemap:') : robots.includes('Disallow: /'));
+if (config.affiliateEnabled) {
+  for (const [slug,link] of Object.entries(config.affiliateLinks)) {
+    if (!link) continue;
+    const html=await readFile(path.join(dist,'guides',slug,'index.html'),'utf8');
+    assert.ok(html.includes(link.replaceAll('&','&amp;')), 'Configured affiliate link must appear in its guide');
+    assert.match(html,/rel="sponsored nofollow noopener"/);
+    assert.match(html,/As an Amazon Associate I earn from qualifying purchases/);
+  }
+}
 console.log(`Passed: ${pages.length} pages, local links/assets, headings, metadata and affiliate safety.`);
