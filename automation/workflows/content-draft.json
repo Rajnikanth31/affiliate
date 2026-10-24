@@ -1,0 +1,55 @@
+{
+  "id": "consideredDraft1",
+  "name": "Considered - Local AI draft",
+  "active": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "manual",
+      "name": "Run manually",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://assistant:3210/draft",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"topic\": \"Choosing storage for charging cables at a home desk\",\n  \"notes\": \"General editorial brief: start by sorting the cables already owned. Measure available drawer space. Keep charging equipment ventilated and follow its manual. Compare access, cleaning and the space taken by organisers. Do not recommend or name specific products. Do not invent facts or sources.\",\n  \"sources\": []\n}",
+        "options": {
+          "timeout": 600000
+        }
+      },
+      "id": "request",
+      "name": "Generate review draft",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        300,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Run manually": {
+      "main": [
+        [
+          {
+            "node": "Generate review draft",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "Asia/Kolkata"
+  }
+}

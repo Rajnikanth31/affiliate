@@ -3,3 +3,4 @@ dist/
 .env
 automation/drafts/
 pages-upload.zip
+automation/runtime/
